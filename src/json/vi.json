@@ -1,0 +1,42 @@
+{
+    "title":"Xin chào",
+    "header":{
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "portfolio": "Dự án",
+        "contact": "Liên hệ"
+    },
+    "hero": {
+        "title": "Chào mừng đến với Portfolio của tôi",
+        "description": "Tôi là một lập trình viên web chuyên về các công nghệ frontend hiện đại.",
+        "buttonText": "Xem sản phẩm"
+      },
+    "about":{
+        "title": "Giới thiệu",
+        "description":"Tôi là một lập trình viên với niềm đam mê và kinh nghiệm xây dựng các ứng dụng web phản hồi tốt bằng các công nghệ hiện đại. Tôi thích tạo ra giao diện dễ nhìn, thân thiện với người dùng và giải quyết những vấn đề khó khăn cho khách hàng."
+    },
+    "portfolio":{
+        "title": "Dự án",
+        "projects":[
+            {
+                "title": "Dự án 1",
+                "description":"Mô tả dự án 1",
+                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
+                "link":"#"
+            },
+            {
+                "title": "Dự án 2",
+                "description":"Mô tả dự án 2",
+                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
+                "link":"#"
+            },
+            {
+                "title": "Dự án 3",
+                "description":"Mô tả dự án 3",
+                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
+                "link":"#"
+
+            }
+        ]
+    }
+}

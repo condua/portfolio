@@ -1,0 +1,41 @@
+{
+    "title":"Hello",
+    "header":{
+        "home": "Home",
+        "about": "About",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Welcome to My Portfolio",
+        "description": "I am a web developer specializing in modern frontend technologies.",
+        "buttonText": "View My Work"
+      },
+    "about":{
+        "title": "About Me",
+        "description":"I’m a passionate developer with experience in building responsive web applications using modern technologies. I enjoy creating clean, user-friendly interfaces and solving challenging problems."
+    },
+    "portfolio":{
+        "title": "My Portfolio",
+        "projects":[
+            {
+                "title": "Project 1",
+                "description": "This is a description of project 1",
+                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
+                "link":"#"
+            },
+            {
+                "title": "Project 2",
+                "description": "This is a description of project 2",
+                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
+                "link":"#"
+            },
+            {
+                "title": "Project 3",
+                "description": "This is a description of project 3",
+                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
+                "link":"#"
+            }
+        ]
+    }
+}
