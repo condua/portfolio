@@ -21,20 +21,20 @@
             {
                 "title": "Dự án 1",
                 "description":"Mô tả dự án 1",
-                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
-                "link":"#"
+                "imageUrl": "/images/project1.png",
+                "link":"https://mybk.website"
             },
             {
                 "title": "Dự án 2",
                 "description":"Mô tả dự án 2",
-                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
-                "link":"#"
+                "imageUrl": "/images/project2.png",
+                "link":"https://hcmut-messenger.online"
             },
             {
                 "title": "Dự án 3",
                 "description":"Mô tả dự án 3",
-                "imageUrl": "https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg",
-                "link":"#"
+                "imageUrl": "/images/project3.png",
+                "link":"https://roced.online"
 
             }
         ]

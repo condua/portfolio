@@ -36,22 +36,23 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded overflow-hidden duration-300 transform hover:-translate-y-5 cursor-pointer"
+              className="bg-white shadow-md rounded overflow-hidden 
+              cursor-pointer"
+              onClick={() => {
+                window.open(project.link, "_blank");
+              }}
             >
-              <img
-                src={project.imageUrl}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+              <div className="relative w-full h-48 overflow-hidden">
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
+                  className="w-full h-auto object-top transition-transform duration-5000 ease-in-out hover:-translate-y-full"
+                />
+              </div>
               <div className="p-4">
                 <h3 className="font-bold text-xl mb-2">{project.title}</h3>
                 <p className="text-gray-700 mb-4">{project.description}</p>
-                <a
-                  href={project.link}
-                  className="text-blue-500 hover:underline"
-                >
-                  Learn More
-                </a>
+                <a className="text-blue-500 hover:underline">Learn More</a>
               </div>
             </div>
           ))}
