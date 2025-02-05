@@ -34,7 +34,7 @@ const Portfolio = () => {
         <h2 className="text-3xl font-bold text-center mb-8">
           {language.portfolio.title}
         </h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {projects.map((project, index) => (
             <div
               key={index}
