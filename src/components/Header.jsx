@@ -44,7 +44,7 @@ const Header = () => {
             <li>
               <img
                 onClick={() => changeLanguage("vn")}
-                className="w-10 h-8"
+                className="w-10 h-8 object-cover cursor-pointer"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/640px-Flag_of_Vietnam.svg.png"
                 alt="Vietnam Flag"
               />
@@ -52,7 +52,7 @@ const Header = () => {
             <li>
               <img
                 onClick={() => changeLanguage("en")}
-                className="w-10 h-8"
+                className="w-10 h-8 object-cover cursor-pointer"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6NjUzMsxiPYELyWrKg17MA4eLo47fkkM2w&s"
                 alt="England Flag"
               />
@@ -88,7 +88,7 @@ const Header = () => {
                   href="#hero"
                   className="block w-full hover:text-blue-500 text-center"
                 >
-                  Home
+                  {language.header.home}
                 </a>
               </MenuItem>
               <MenuItem>
@@ -96,7 +96,7 @@ const Header = () => {
                   href="#about"
                   className="block w-full hover:text-blue-500 text-center"
                 >
-                  About
+                  {language.header.about}
                 </a>
               </MenuItem>
               <MenuItem>
@@ -104,7 +104,7 @@ const Header = () => {
                   href="#portfolio"
                   className="block w-full hover:text-blue-500 text-center"
                 >
-                  Portfolio
+                  {language.header.portfolio}
                 </a>
               </MenuItem>
               <MenuItem>
@@ -112,13 +112,13 @@ const Header = () => {
                   href="#contact"
                   className="block w-full hover:text-blue-500 text-center"
                 >
-                  Contact
+                  {language.header.contact}
                 </a>
               </MenuItem>
               <MenuItem className="flex justify-center items-center">
                 <img
                   onClick={() => changeLanguage("vn")}
-                  className="w-10 h-8"
+                  className="w-10 h-8 object-cover cursor-pointer"
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/640px-Flag_of_Vietnam.svg.png"
                   alt="Vietnam Flag"
                 />
@@ -126,7 +126,7 @@ const Header = () => {
               <MenuItem className="flex justify-center items-center">
                 <img
                   onClick={() => changeLanguage("en")}
-                  className="w-10 h-8"
+                  className="w-10 h-8 object-cover cursor-pointer"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6NjUzMsxiPYELyWrKg17MA4eLo47fkkM2w&s"
                   alt="England Flag"
                 />

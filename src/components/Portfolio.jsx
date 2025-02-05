@@ -31,7 +31,9 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8">My Work</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">
+          {language.portfolio.title}
+        </h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
@@ -52,7 +54,9 @@ const Portfolio = () => {
               <div className="p-4">
                 <h3 className="font-bold text-xl mb-2">{project.title}</h3>
                 <p className="text-gray-700 mb-4">{project.description}</p>
-                <a className="text-blue-500 hover:underline">Learn More</a>
+                <a className="text-blue-500 hover:underline">
+                  {language.viewmore}
+                </a>
               </div>
             </div>
           ))}
