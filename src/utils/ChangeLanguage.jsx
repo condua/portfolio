@@ -1,4 +1,3 @@
-import React from "react";
 import useLanguage from "./useLanguage";
 import vn from "../json/vi.json";
 import en from "../json/en.json";

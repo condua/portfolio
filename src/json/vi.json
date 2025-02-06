@@ -46,5 +46,18 @@
             }
         ]
     },
-    "viewmore":"Xem giao diện"
+    "viewmore":"Xem giao diện",
+    "contact":{
+        "title": "Liên hệ",
+        "name": "Tên",
+        "yourname":"Tên của bạn",
+        "email": "Email",
+        "youremail":"Email của bạn",
+        "message": "Tin nhắn",
+        "sendmessage": "Gửi tin nhắn"
+    },
+    "alert":{
+        "sendfail":"Vui lòng điền tất cả các trường",
+        "sendsuccess":"Cảm ơn bạn đã gửi tin nhắn"
+    }
 }

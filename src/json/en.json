@@ -44,5 +44,18 @@
             }
         ]
     },
-    "viewmore":"View more"
+    "viewmore":"View more",
+    "contact":{
+        "title": "Contact Me",
+        "name": "Name",
+        "yourname": "Your name",
+        "email": "Email",
+        "youremail": "Your email",
+        "message": "Message",
+        "sendmessage": "Send Message"
+    },
+    "alert":{
+        "sendfail":"Please fill all the fields",
+        "sendsuccess": "Thanks for your message"
+    }
 }
