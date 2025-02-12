@@ -13,31 +13,31 @@ const Header = () => {
   const { language, changeLanguage } = useContext(LanguageContext);
 
   return (
-    <header className="bg-white shadow sticky top-0 z-50">
+    <header className="bg-blue-500 shadow sticky top-0 z-50 border-b-2 border-blue-700">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo/Title */}
-        <h1 className="text-xl font-bold">{language.title}</h1>
+        <h1 className="text-xl font-bold text-white">{language.title}</h1>
 
         {/* Desktop Navigation (visible on md and larger screens) */}
         <nav className="hidden md:flex">
           <ul className="flex space-x-4 items-center">
             <li>
-              <a href="#hero" className="hover:text-blue-500">
+              <a href="#hero" className="hover:text-red-500 text-white">
                 {language.header.home}
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-blue-500">
+              <a href="#about" className="hover:text-red-500 text-white">
                 {language.header.about}
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="hover:text-blue-500">
+              <a href="#portfolio" className="hover:text-red-500 text-white">
                 {language.header.portfolio}
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-blue-500">
+              <a href="#contact" className="hover:text-red-500 text-white">
                 {language.header.contact}
               </a>
             </li>
