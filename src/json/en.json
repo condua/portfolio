@@ -19,26 +19,26 @@
         "title": "My Portfolio",
         "projects":[
             {
-                "title": "Project 1",
-                "description": "This is a description of project 1",
+                "title": "Mybk Technology",
+                "description": "Mybk Technology is a platform that combines education and entertainment, allowing users to look up university entrance scores, stay updated with educational and entertainment news, and participate in online quizzes. The website supports both Vietnamese and English to cater to a wider audience.",
                 "imageUrl": "/images/project1.png",
                 "link":"https://mybk.website"
             },
             {
-                "title": "Project 2",
-                "description": "This is a description of project 2",
+                "title": "HCMUT Messenger",
+                "description": "HCMUT Messenger is an online messaging platform that allows users to send text messages and images quickly, securely, and conveniently. The website features a simple interface, real-time messaging, and strong privacy protection.",
                 "imageUrl": "/images/project2.png",
                 "link":"https://hcmut-messenger.online"
             },
             {
-                "title": "Project 3",
-                "description": "This is a description of project 3",
+                "title": "Roced",
+                "description": "Roced is a modern e-commerce platform that allows users to easily browse, shop, and review their favorite products. The website provides a seamless shopping experience with advanced product filtering, a flexible cart system, a wishlist feature and easy follow your order.",
                 "imageUrl": "/images/project3.png",
                 "link":"https://roced.online"
             },
             {
-                "title": "Project 4",
-                "description": "This is a description of project 4",
+                "title": "3D house",
+                "description": "3D House is a platform that provides modern 3D house designs, helping users find the perfect design for their needs. The website offers high-quality 3D models, detailed drawings, and guides to support home construction and renovation projects.",
                 "imageUrl": "/images/project4.png",
                 "link":"https://3dhouse-orcin.vercel.app"
             }

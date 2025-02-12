@@ -19,27 +19,27 @@
         "title": "Dự án",
         "projects":[
             {
-                "title": "Dự án 1",
-                "description":"Mô tả dự án 1",
+                "title": "Mybk Technology",
+                "description":"Mybk Technology là một nền tảng cung cấp thông tin giáo dục kết hợp với giải trí, giúp người dùng tra cứu điểm chuẩn đại học, cập nhật tin tức giáo dục và giải trí, đồng thời tham gia các bài quiz trực tuyến. Website hỗ trợ cả tiếng Việt và tiếng Anh để phù hợp với nhiều đối tượng người dùng.",
                 "imageUrl": "/images/project1.png",
                 "link":"https://mybk.website"
             },
             {
-                "title": "Dự án 2",
-                "description":"Mô tả dự án 2",
+                "title": "HCMUT Messenger",
+                "description":"HCMUT Messenger là một nền tảng nhắn tin trực tuyến, cho phép người dùng gửi tin nhắn văn bản và hình ảnh một cách nhanh chóng, an toàn và tiện lợi. Website được thiết kế với giao diện đơn giản, hỗ trợ nhắn tin theo thời gian thực và đảm bảo quyền riêng tư cho người dùng.",
                 "imageUrl": "/images/project2.png",
                 "link":"https://hcmut-messenger.online"
             },
             {
-                "title": "Dự án 3",
-                "description":"Mô tả dự án 3",
+                "title": "Roced",
+                "description":"Roced là một nền tảng thương mại điện tử hiện đại, giúp người dùng dễ dàng tìm kiếm, mua sắm và đánh giá các sản phẩm yêu thích. Website cung cấp trải nghiệm mua sắm tiện lợi với hệ thống lọc sản phẩm thông minh, giỏ hàng linh hoạt, hỗ trợ danh sách sản phẩm yêu thích và dễ dàng theo dõi đơn hàng.",
                 "imageUrl": "/images/project3.png",
                 "link":"https://roced.online"
 
             },
             {
-                "title": "Dự án 4",
-                "description":"Mô tả dự án 4",
+                "title": "3D house",
+                "description":"3D House là nền tảng cung cấp các bản vẽ 3D hiện đại cho nhà ở, giúp người dùng dễ dàng tìm kiếm ý tưởng thiết kế phù hợp với nhu cầu. Website cung cấp các mô hình 3D chất lượng cao, thông tin chi tiết về bản vẽ và tài liệu hướng dẫn để hỗ trợ quá trình xây dựng và cải tạo nhà cửa.",
                 "imageUrl": "/images/project4.png",
                 "link":"https://3dhouse-orcin.vercel.app"
 
