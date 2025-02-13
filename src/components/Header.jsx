@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 import {
   Menu,
@@ -11,12 +11,16 @@ import {
 import { LanguageContext } from "../utils/LanguageContext";
 const Header = () => {
   const { language, changeLanguage } = useContext(LanguageContext);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="bg-blue-500 shadow sticky top-0 z-50 border-b-2 border-blue-700">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo/Title */}
-        <h1 className="text-xl font-bold text-white">{language.title}</h1>
+        <div className="flex flex-row justify-between items-center gap-x-5">
+          <img className="w-10 h-10" src="/images/logo.png" />
+          <h1 className="text-xl font-bold text-white">{language.title}</h1>
+        </div>
 
         {/* Desktop Navigation (visible on md and larger screens) */}
         <nav className="hidden md:flex">
@@ -62,24 +66,41 @@ const Header = () => {
 
         {/* Mobile Navigation (visible on screens <768px) */}
         <nav className="md:hidden">
-          <Menu>
+          <Menu
+            open={isOpen}
+            handler={() => setIsOpen(!isOpen)} // Đảo trạng thái menu
+          >
             <MenuHandler>
               <Button variant="text" size="sm">
-                {/* Hamburger Icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
+                {isOpen ? (
+                  // Icon Close (X)
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
+                  >
+                    <path d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  // Icon Menu (☰)
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
                     strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                )}
               </Button>
             </MenuHandler>
             <MenuList className="w-full flex-col justify-center items-center md:hidden border-none">
