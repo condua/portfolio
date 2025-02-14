@@ -6,17 +6,17 @@ const Footer = () => {
       </p>
       <nav>
         <ul className="flex justify-center items-center md:gap-x-5 gap-x-3">
-          <li>
+          <li className="hover:scale-120">
             <a
               href="https://github.com/condua"
               target="_blank"
               rel="noopener noreferrer"
-              className="md:text-3xl text-2xl text-black transition duration-300 ease-in-out"
+              className="md:text-3xl text-2xl text-black transition duration-300 ease-in-out "
             >
               <i className="fab fa-github"></i>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-120">
             <a
               href="https://www.facebook.com/phuc.phanhoang.1694"
               target="_blank"
@@ -26,7 +26,7 @@ const Footer = () => {
               <i className="fab fa-facebook"></i>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-120">
             <a
               href="https://www.youtube.com/@tonyphan34"
               target="_blank"
@@ -36,7 +36,7 @@ const Footer = () => {
               <i className="fab fa-youtube"></i>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-120">
             <a
               href="https://www.linkedin.com/in/phanhoangphuc0509/"
               target="_blank"
@@ -46,7 +46,7 @@ const Footer = () => {
               <i className="fab fa-linkedin"></i>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-120">
             <a
               href="https://www.tiktok.com/@bimatgiaitri"
               target="_blank"
@@ -56,7 +56,7 @@ const Footer = () => {
               <i className="fab fa-tiktok"></i>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-120">
             <a
               href="https://zalo.me/0399915548"
               target="_blank"
