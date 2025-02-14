@@ -56,7 +56,7 @@ const About = () => {
             {language.about.title}
           </motion.h2>
           <motion.p
-            className="text-center text-gray-700 max-w-2xl mx-auto"
+            className="text-center text-gray-700 max-w-2xl mx-auto md:text-xl text-lg"
             variants={itemVariants}
           >
             {language.about.description}
