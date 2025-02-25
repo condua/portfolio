@@ -65,7 +65,7 @@ const Header = () => {
         </nav>
 
         {/* Mobile Navigation (visible on screens <768px) */}
-        <nav className="md:hidden">
+        <nav className="md:hidden z-100">
           <Menu
             open={isOpen}
             handler={() => setIsOpen(!isOpen)} // Đảo trạng thái menu
