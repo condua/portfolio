@@ -1,5 +1,7 @@
 // LanguageContext.js
-import React, { createContext, useState } from "react";
+import { createContext, useState } from "react";
+import PropTypes from "prop-types";
+
 import vn from "../json/vi.json";
 import en from "../json/en.json";
 
@@ -25,4 +27,7 @@ export const LanguageProvider = ({ children }) => {
       {children}
     </LanguageContext.Provider>
   );
+};
+LanguageProvider.propTypes = {
+  children: PropTypes.node.isRequired, // `node` có thể là string, component, array, v.v.
 };
